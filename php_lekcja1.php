@@ -173,4 +173,23 @@ for ($w = 0; $w < $wiersze; $w++) {
     }
 }
 
+echo "<br><br><br>";
+$x = 10;
+$y = '5';
+echo $x . $y;
+
+echo "<br><br><br>";
+$licz = 0;
+for ($g = 2; $g <= 100; $g += 2) {
+    $licz++;
+    echo "Licznik = $licz<br>";
+}
+
+echo "<br><br><br>";
+for ($i = 1; $i <= 5; $i++) {
+    if ($i == 3) {
+        break;
+    }
+    echo "$i ";
+}
 ?>
